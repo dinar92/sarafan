@@ -76,4 +76,9 @@ public class MainController {
 
         return "index";
     }
+
+    @GetMapping("/receiver.html")
+    public String receiver(Model model) {
+        return "receiver";
+    }
 }
